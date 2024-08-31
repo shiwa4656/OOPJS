@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Themed Button Example</title>
+    <style>
+      /* Define custom properties for theming the button */
+      .dark-theme {
+        --button-bg: #343a40; /* Dark background */
+        --button-hover-bg: #23272b; /* Darker background on hover */
+      }
+    </style>
+    <script src="ThemedButton.js" defer></script>
+  </head>
+  <body>
+    <themed-button>Default Theme</themed-button>
+    <themed-button class="dark-theme">Dark Theme</themed-button>
+  </body>
+</html>
